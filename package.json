@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run lint & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "config.json": "0.0.4",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "sequelize": "^5.9.2"
+  }
+}
